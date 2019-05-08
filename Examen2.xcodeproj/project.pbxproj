@@ -13,6 +13,10 @@
 		1F0A20E52282297C0034702F /* Examen2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A20E32282297C0034702F /* Examen2.xcdatamodeld */; };
 		1F0A20E72282297E0034702F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A20E62282297E0034702F /* Assets.xcassets */; };
 		1F0A20EA2282297E0034702F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0A20E82282297E0034702F /* LaunchScreen.storyboard */; };
+		1F0A20F222822AC70034702F /* MillasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A20F122822AC70034702F /* MillasVC.swift */; };
+		1F0A20F422822AD30034702F /* YardasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A20F322822AD30034702F /* YardasVC.swift */; };
+		1F0A20F622822ADE0034702F /* KilometrosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A20F522822ADE0034702F /* KilometrosVC.swift */; };
+		1F0A20F8228234B10034702F /* MillaVistaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0A20F7228234B10034702F /* MillaVistaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1F0A20E62282297E0034702F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0A20E92282297E0034702F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0A20EB2282297E0034702F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0A20F122822AC70034702F /* MillasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillasVC.swift; sourceTree = "<group>"; };
+		1F0A20F322822AD30034702F /* YardasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardasVC.swift; sourceTree = "<group>"; };
+		1F0A20F522822ADE0034702F /* KilometrosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KilometrosVC.swift; sourceTree = "<group>"; };
+		1F0A20F7228234B10034702F /* MillaVistaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillaVistaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				1F0A20DC2282297C0034702F /* AppDelegate.swift */,
 				1F0A20DE2282297C0034702F /* ViewController.swift */,
+				1F0A20F122822AC70034702F /* MillasVC.swift */,
+				1F0A20F7228234B10034702F /* MillaVistaVC.swift */,
+				1F0A20F322822AD30034702F /* YardasVC.swift */,
+				1F0A20F522822ADE0034702F /* KilometrosVC.swift */,
 				1F0A20E02282297C0034702F /* Main.storyboard */,
 				1F0A20E62282297E0034702F /* Assets.xcassets */,
 				1F0A20E82282297E0034702F /* LaunchScreen.storyboard */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0A20F222822AC70034702F /* MillasVC.swift in Sources */,
 				1F0A20DF2282297C0034702F /* ViewController.swift in Sources */,
+				1F0A20F422822AD30034702F /* YardasVC.swift in Sources */,
+				1F0A20F8228234B10034702F /* MillaVistaVC.swift in Sources */,
+				1F0A20F622822ADE0034702F /* KilometrosVC.swift in Sources */,
 				1F0A20DD2282297C0034702F /* AppDelegate.swift in Sources */,
 				1F0A20E52282297C0034702F /* Examen2.xcdatamodeld in Sources */,
 			);
